@@ -220,15 +220,15 @@
 	 .descrSkillsUsed {
 		 margin-top: -7px;
 	}
-	 #project1DescriptionHold {
+    .projectDescriptHold #project1DescriptionHold {
 		 grid-area: 1/2/3/3;
 		 width: 800px;
 	}
-	 #project2DescriptionHold {
+	.projectDescriptHold #project2DescriptionHold {
 		 grid-area: 1/2/3/3;
 		 width: 800px;
 	}
-	 #project3DescriptionHold {
+	.projectDescriptHold #project3DescriptionHold {
 		 grid-area: 2/2/3/3;
 		 width: 800px;
 	}
@@ -320,24 +320,29 @@
 		 margin-bottom: -40px;
 		 margin-top: -10px;
 	}
-	 #project1Img {
+	.linkImgHolder #project1Img {
 		 margin-left: 5px;
 		 border-radius: 40px;
 		 width: 300px;
 		 object-fit: cover;
 	}
-	 #project2Img {
+	.linkImgHolder #project2Img {
 		 margin-left: 5px;
 		 border-radius: 40px;
 		 width: 300px;
 		 object-fit: cover;
 	}
-	 #project3Img {
+	.linkImgHolder #project3Img {
 		 margin-left: 5px;
 		 border-radius: 40px;
 		 width: 300px;
-		 object-fit: scale-down;
+         height: 230px;
+		 object-fit: cover;
 	}
+    #project3ImgHOld {
+        margin-top: 25px;
+        width: 100%;
+   }
 	 .projectDescriptHold {
 		 display: flex;
 		 flex-direction: column;
@@ -372,6 +377,7 @@
 	 #project3DescriptionHold {
 		 grid-area: 2/2/3/3;
 		 width: 800px;
+         margin-top: 5px;
 	}
 }
  @media (min-width: 795px) {
@@ -514,6 +520,7 @@
 	 #project3DescriptionHold {
 		 grid-area: 2/2/3/3;
 		 width: 800px;
+         margin-top: -15px;
 	}
 	 #descrDescr2Proj {
 		 margin-top: 30px;
