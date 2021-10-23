@@ -1,0 +1,245 @@
+@media (max-width:399px) {
+    
+    input {
+        padding: 5px 20px;
+        line-height: 16px;
+        margin: 10px 0;
+    }    
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .headerBox{
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+        height: 100%;
+        border-radius: 40px;
+        width: 100%;
+        text-align: left;
+        background-color: #ebc994;
+    }
+    
+    ul{
+        margin-left: 10px;
+    }
+
+    li{
+        margin: 10px;
+    }
+
+    .menuBtn {
+        background-color: blanchedalmond;
+        border-radius: 40px;
+        color: #B80C4D;
+        width: 80px;
+        text-align: center;
+
+    }
+   
+    .menuBtn:hover{
+        background-color: yellow;
+    }
+    
+    a:link{
+        color: #B80C4D;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: #db4f85;
+        
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        text-align: center;
+        align-content: center;
+        margin-top: 70px;       
+    }
+
+    .footerBox{
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+        height: 100%;
+        border-radius: 40px;
+        width: 380px;
+        margin: 5px;
+        background-color: #ebc994;
+    }
+    
+    .footerBox p{
+        margin: 10px;
+    }
+    
+}
+
+@media (min-width: 400px) and (max-width:794px) {
+
+    input {
+        padding: 5px 20px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+    
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .headerBox{
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+        height: 100%;
+        border-radius: 40px;
+        width: 100%;
+        text-align: left;
+        background-color: #ebc994;  
+    }
+    
+    ul{
+        margin-left: 10px;  
+    }
+
+    li{
+        margin: 10px;
+    }
+
+    .menuBtn {
+        background-color: blanchedalmond;
+        border-radius: 40px;
+        color: #B80C4D;
+        width: 80px;
+        text-align: center;
+    }
+    
+    .menuBtn:hover{
+        background-color: yellow;
+    }
+    
+    a:link{
+        color: #B80C4D;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: #db4f85;
+        
+    }
+
+    footer{
+        text-align: center;
+        align-content: center;
+        margin-top: 35px;
+        display: flex;
+    }
+
+    .footerBox{
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+        height: 100%;
+        border-radius: 40px;
+        width: 100%;
+        margin: 5px;
+        background-color: #ebc994;
+    }
+
+    .footerBox p{
+        margin: 10px;
+    }
+};
+
+@media (min-width:795px) {
+
+    input {
+        padding: 5px 20px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+    
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-top: -60px;
+        margin-bottom: 60px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .headerBox{
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+        height: 100%;
+        border-radius: 40px;
+        width: 100%;
+        text-align: left;
+        background-color: #ebc994;    
+    }
+   
+    ul{
+        margin-left: 10px;
+    }
+
+    li{
+        margin: 10px;
+    }
+
+    .menuBtn {
+        background-color: blanchedalmond;
+        border-radius: 40px;
+        color: #B80C4D;
+        width: 80px;
+        text-align: center;
+    }
+
+    .menuBtn:hover{
+        background-color: yellow;
+    }
+    
+    a:link{
+        color: #B80C4D;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: #db4f85;  
+    }
+    
+    footer{
+        text-align: center;
+        align-content: center;
+        margin-top: 35px;
+        display: flex;
+    }
+
+    .footerBox{
+        display: block;
+        text-align: center;
+        margin-top: 60px;
+        height: 100%;
+        border-radius: 40px;
+        width: 100%;
+        margin: 5px;
+        background-color: #ebc994;
+    }
+
+    .footerBox p{
+        margin: 10px;
+    }
+};

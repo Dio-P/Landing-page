@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Manipulating the DOM</title>
+  <title>Recent Projects Page</title>
   <!-- Load Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+  <link href="./css/generalFootHead.css" rel="stylesheet">
+  
 </head>
 <body>
   <!-- HTML Follows BEM naming conventions 
@@ -20,40 +22,78 @@
   </header>
   <main>
     <header class="main__hero">
-      <h1>Landing Page </h1>
+      <h1 id="mainTitle">Projects' Page </h1>
     </header>
     <!-- Each Section has an ID (used for the anchor) and 
     a data attribute that will populate the li node.
     Adding more sections will automatically populate nav.
     The first section is set to active class by default -->
-    <section id="section1" data-nav="Section 1" class="your-active-class">
-      <div class="landing__container">
-        <h2>Section 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+    <div class="mainLandingSpot">
+      <section id="section1" data-nav="Section 1" class="your-active-class">
+        <div class="landing__container landingCard">
+          <div id="project1ImgHOld" class="linkImgHolder">
+            <img id="project1Img" src="./Pictures/062b66194f2e4e7b573a.png" alt="Picture of the working project">
+          </div>
+          <div class="projectTitleHolder">
+            <h2 class="projectCardTitle"><a href="/travellingWeatherApp">Project 1</a></h2>
+            <h3 class="projectCaSubtitle">Traveling Weather App</h3>
+          </div>
+          <div id="project1DescriptionHold" class="projectDescriptHold">
+            <p class="descrDescr">•	App with four interrelated REST API calls that pass data asynchronously, to generate and update the U.I with information on the weather and visiting country.<br></p>
+            <p class="descrSubHead">Skills Used:</p>
+            <p class="descrSkillsUsed"> HTML, SASS (Scss), JavaScript, Express.js , API calls, Webpack5, Jest, Service Workers, SASS (Scss), Babel, Node.js, Axios</p>
+          </div>
+        </div>
+      </section>
+      <section id="section2" data-nav="Section 2">
+        <div class="landing__container landingCard">
 
-        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
-      </div>
-    </section>
-    <section id="section2" data-nav="Section 2">
-      <div class="landing__container">
-        <h2>Section 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+          <div id="project2ImgHOld" class="linkImgHolder">
+            <img id="project2Img" src="./Pictures/c4f4b483afda7ff4f9a1.png" alt="Picture of the working project">
+          </div>
+          <div class="projectTitleHolder">
+            <h2 class="projectCardTitle"><a href="/naturalLangArticle">Project 2</a></h2>
+            <h3 class="projectCaSubtitle" id="project2CaSubtitle">Natural Language Processing <br> evaluation of news article App</h3>
+          </div>
+          <div id="project2DescriptionHold" class="projectDescriptHold">
+            <p class="descrDescr" id="descrDescr2Proj">•	Built a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.<br></p>
+            <p class="descrSubHead" id="descrSubHead2Proj">Skills Used:</p>
+            <p class="descrSkillsUsed" id="descrSkillsUsed2Proj"> HTML, SASS (Scss), JavaScript, Express.js , API calls, Webpack5, Jest, Service Workers, Babel, Node.js, Axios</p>
+          </div>
 
-        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
-      </div>
-    </section>
-    <section id="section3" data-nav="Section 3">
-      <div class="landing__container">
-        <h2>Section 3</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum metus faucibus lectus pharetra dapibus. Suspendisse potenti. Aenean aliquam elementum mi, ac euismod augue. Donec eget lacinia ex. Phasellus imperdiet porta orci eget mollis. Sed convallis sollicitudin mauris ac tincidunt. Donec bibendum, nulla eget bibendum consectetur, sem nisi aliquam leo, ut pulvinar quam nunc eu augue. Pellentesque maximus imperdiet elit a pharetra. Duis lectus mi, aliquam in mi quis, aliquam porttitor lacus. Morbi a tincidunt felis. Sed leo nunc, pharetra et elementum non, faucibus vitae elit. Integer nec libero venenatis libero ultricies molestie semper in tellus. Sed congue et odio sed euismod.</p>
+        </div>
+      </section>
+      <section id="section3" data-nav="Section 3">
+        <div class="landing__container landingCard">
+          <div id="project3ImgHOld" class="linkImgHolder">
+            <img id="project3Img" src="./Pictures/19e0ea0c53e7b4874bf4.png" alt="Picture of the working project">
+          </div>
+          <div class="projectTitleHolder">
+            <h2 class="projectCardTitle"><a href="/weatherJournal">Project 3</a></h2>
+            <h3 class="projectCaSubtitle">Weather Journal App</h3>
+          </div>
+          <div id="project3DescriptionHold" class="projectDescriptHold">
+            <p class="descrDescr">• Built asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.<br></p>
+            <p class="descrSubHead">Skills Used:</p>
+            <p class="descrSkillsUsed"> HTML, Scss, JavaScript, Express.js , Node.js, Fetch API, async functions and API calls, Axios</p>
+          </div>
 
-        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
-      </div>
-    </section>
+        </div>
+      </section>
+    </div>
   </main>
   <footer class="page__footer">
-    <p>&copy Udacity</p>
+    <p>Made by Dio Papadopoulos</p>
   </footer>
   <script src="js/app.js"></script>
+  <!-- <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+           </script> -->
 </body>
 </html>
